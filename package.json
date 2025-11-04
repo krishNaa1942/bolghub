@@ -1,6 +1,24 @@
 {
-  "name": "internshipproject",
-  "version": "0.1.0",
+  "name": "bloghub",
+  "version": "1.0.0",
+  "description": "Enterprise-grade blogging platform with Next.js 16, tRPC, PostgreSQL, and Redis caching",
+  "author": "BlogHub Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krishNaa1942/bolghub.git"
+  },
+  "homepage": "https://github.com/krishNaa1942/bolghub#readme",
+  "keywords": [
+    "blog",
+    "nextjs",
+    "typescript",
+    "trpc",
+    "postgresql",
+    "redis",
+    "cms",
+    "markdown"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev",

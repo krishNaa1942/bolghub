@@ -1,6 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
 import { checkRateLimit, getIdentifier } from "@/lib/rate-limit";
-import type { Ratelimit } from "@upstash/ratelimit";
 
 describe("Rate Limiting", () => {
   describe("getIdentifier", () => {
