@@ -1,0 +1,30 @@
+# Vercel Ignore File
+# Files and directories to ignore during deployment
+
+# Documentation (reduces deployment size)
+*.md
+!README.md
+
+# Development files
+.env.local.example
+.vscode/
+.idea/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Local environment
+.DS_Store
+Thumbs.db
+
+# Database files (if any)
+*.db
+*.sqlite
+
+# Temporary files
+tmp/
+temp/
